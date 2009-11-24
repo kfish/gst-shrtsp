@@ -23,3 +23,11 @@ To connect:
 To view a stream from server "ecovec", on the default port:
 
 $ vlc rtsp://ecovec:8554/stream
+
+Testing
+-------
+
+On your client PC:
+
+$ apt-get install livemedia-utils
+$ openRTSP rtsp://ecovec:8554/stream
