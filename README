@@ -1,5 +1,5 @@
-Requirements
-------------
+Build requirements
+------------------
 
 GStreamer-0.10, gst-rtsp-server:
 
@@ -10,3 +10,16 @@ $ apt-get install libgstrtspserver-0.10-dev
 gst-sh-mobile:
 
 http://github.com/kfish/gst-sh-mobile
+
+
+To run the server:
+------------------
+
+$ rtsp-shcodecs
+
+To connect:
+-----------
+
+To view a stream from server "ecovec", on the default port:
+
+$ vlc rtsp://ecovec:8554/stream
