@@ -1,0 +1,12 @@
+Requirements
+------------
+
+GStreamer-0.10, gst-rtsp-server:
+
+On Debian:
+
+$ apt-get install libgstrtspserver-0.10-dev
+
+gst-sh-mobile:
+
+http://github.com/kfish/gst-sh-mobile
